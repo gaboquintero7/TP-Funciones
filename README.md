@@ -7,8 +7,8 @@ TP para evaluar funciones de la camada camada1697js | CoderHouse
 
 - Validen que el nombre de la persona no sea vacio
 - Validen que el apellido no este vacio
-- validen que el numero de telefono sea mayor a 5 digitos y menos a 9 -- no limitarlo con HTML
-- validenque sea mayor de edad
+- validen que el numero de telefono sea mayor a 5 digitos y menor a 9 /// no limitarlo con HTML
+- validen que sea mayor de edad
 - Validen que el Mail no este vacio
 - cada vez que se presione enviar, debe borrar todos los campos
 
@@ -56,7 +56,8 @@ TP para evaluar funciones de la camada camada1697js | CoderHouse
 - Para probar las expresiones regulares usamos   .test() 
 
           var re = /ab+c/;
-          re.test("The best things in life are free") // devuelve verdadero si el string cumple con los parametros de la expresiones
+          re.test("The best things in life are free") 
+          // devuelve verdadero si el string cumple con los parametros de la expresiones
       
 - todas las funciones debes llamarlas en la funcion validar()  
       
